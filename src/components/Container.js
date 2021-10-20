@@ -1,19 +1,19 @@
 import React, { useState } from 'react';
-import Header from './components/Header';
-import Project from './components/Project';
-import Footer from "./components/Footer";
-import About from "./components/About";
-import Contact from "./components/Contact";
+import Header from './Header';
+import Project from './Project';
+import Footer from "./Footer";
+import About from "./About";
+import Contact from "./Contact";
 
 function Container() {
     const [currentInfo, setCurrentInfo] = useState('About');
     const renderInfo = () => {
-        if (currentInfo === 'About'){
+        if (currentInfo === 'About') {
             return <About />
         }
-        if (currentInfo === 'Project'){
+        if (currentInfo === 'Project') {
             return <Project />
-        } 
+        }
         return <Contact />
     };
 
