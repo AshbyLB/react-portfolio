@@ -25,7 +25,7 @@ function Header() {
             <header class="row" style={styles.headerStyle} className="header row">
                 <h1 className="col" style={styles.headingStyle}>Ashby Blakely</h1>
                     <nav style={styles.navStyle} className="navbar col justify-content-end">
-                        <a style={styles.wordStyle} href="/">About Me</a>
+                        <a style={styles.wordStyle} href="#About">About Me</a>
                         <a style={styles.wordStyle} href="/">Projects</a>
                         <a style={styles.wordStyle} href="/">Contact</a>
                         <a style={styles.wordStyle} href="/">Resume</a>
