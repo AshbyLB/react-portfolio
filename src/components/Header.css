@@ -1,9 +1,52 @@
-h1 {
-    font-size: 200%;
+#name{
     font-family: 'Bungee Shade', cursive;
     color: seashell;
+    font-size: 275%;
 }
 
-nav a{
+#hov{
     padding: 10px;
+    font-size: 23px;
+    text-decoration: none;
 }
+#hov{
+    padding: .5em .8em;
+    position: relative;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+#hov::before,
+#hov::after {
+    content: '';
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    transition: all .35s ease;
+    opacity: 0;
+  }
+#hov::before {
+    content: '';
+    right: 0;
+    top: 0;
+    border-top: 3px solid #abecfc;
+    border-right: 3px solid #31cad4;
+    transform: translate(-100%, 50%);
+  }
+#hov:after {
+    content: '';
+    left: 0;
+    bottom: 0;
+    border-bottom: 3px solid #abecfc;
+    border-left: 3px solid #31cad4;
+    transform: translate(100%, -50%)
+  }
+  
+#hov:hover:before,
+#hov:hover:after{
+    transform: translate(0,0);
+    opacity: 1;
+  }
+#hov:hover {
+    color: #89a8ff;
+  }
