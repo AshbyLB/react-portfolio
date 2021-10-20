@@ -1,0 +1,10 @@
+
+#aboutStyle {
+    display: block;  
+    text-align: center;
+    justify-content: center;
+    color:#fcebcb;
+    padding-left: 20%;
+    padding-right: 20%; 
+    margin-top: 16%;
+}

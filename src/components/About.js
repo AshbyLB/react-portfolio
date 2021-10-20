@@ -1,9 +1,11 @@
 import React from 'react';
+import './About.css';
 
 
 function About() {
     return (
         <section>
+            <div id="aboutStyle">
             <h2>About Me</h2>
             <p>I'm a current student of the UNCC Full-Stack Coding Bootcamp. With a background in theatre and performing
                 arts, I am bringing my knowledge of entertainment into the world of development. I am seeking a job
@@ -14,7 +16,9 @@ function About() {
                 skills. I look
                 forward to starting my career in web development.
                 Please take a moment
-                to navigate through my portfolio page and feel free to contact me anytime.</p>
+                to navigate through my portfolio page and feel free to contact me anytime.
+                </p>
+                </div>
         </section>
     )
 };

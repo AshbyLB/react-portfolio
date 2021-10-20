@@ -23,7 +23,6 @@ function Container() {
             <Header currentInfo={currentInfo} handlePageChange={handlePageChange} />
             {renderInfo()}
             <Footer />
-
         </div>
     );
 }

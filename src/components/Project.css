@@ -1,0 +1,17 @@
+#hiddenText a{
+    display: none;
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+  }
+  
+#hiddenText:hover a{
+    transition: 0.5s ease;
+    display:inline-block;
+    color:white ;
+  }
+
+.card:hover img{
+    transition: opacity 0.5s ease;
+    opacity: 0.2;
+}
+
+
