@@ -7,10 +7,11 @@ const styles = {
     },
     headingStyle: {
         fontSize: '75',
+        height: '100px'
     },
     navStyle: {
         color: 'black',
-        padding: '20px',
+        
     },
     wordStyle: {
         padding: '10px',
@@ -21,19 +22,15 @@ const styles = {
 function Header() {
     return (
         <div>
-            <div class="d-flex align-items-center">
-                <header class="d-flex" style={styles.headerStyle} className="header">
-                    <h1 style={styles.headingStyle}>Ashby Blakely</h1>
-                    <div class="d-flex justify-content-end">
-                        <nav style={styles.navStyle} className="navbar">
-                            <a style={styles.wordStyle} href="/">About Me</a>
-                            <a style={styles.wordStyle} href="/">Projects</a>
-                            <a style={styles.wordStyle} href="/">Contact</a>
-                            <a style={styles.wordStyle} href="/">Resume</a>
-                        </nav>
-                    </div>
-                </header>
-            </div>
+            <header class="row" style={styles.headerStyle} className="header row">
+                <h1 className="col" style={styles.headingStyle}>Ashby Blakely</h1>
+                    <nav style={styles.navStyle} className="navbar col justify-content-end">
+                        <a style={styles.wordStyle} href="/">About Me</a>
+                        <a style={styles.wordStyle} href="/">Projects</a>
+                        <a style={styles.wordStyle} href="/">Contact</a>
+                        <a style={styles.wordStyle} href="/">Resume</a>
+                    </nav>
+            </header>
         </div>
     );
 }
