@@ -3,7 +3,7 @@ import './Contact.css';
 
 function Contact() {
     return (
-        <form id="form" className="container col-3 text-white text-center pt-5">
+        <form id="form" className="container col-3 text-white text-center">
             <div class="mb-3">
                 <h3>Contact Me!</h3>
                 <label for="exampleInputEmail1" className="form-label">Name</label>
