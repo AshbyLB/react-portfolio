@@ -22,7 +22,7 @@ Click the link to navigate to the website and use the links in the navigation ba
 Ashby Blakely 
 
 ## Screenshot
-![screenshot](./src/images/react1.png)
+![screenshot](./src/images/report.png)
 
 ## License
 MIT
