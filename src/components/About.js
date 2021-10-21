@@ -1,5 +1,6 @@
 import React from 'react';
 import './About.css';
+import Ashby from '../../src/images/ashbyi.jpg';
 
 
 function About() {
@@ -7,6 +8,7 @@ function About() {
         <section>
             <div id="aboutStyle">
             <h2>About Me</h2>
+            <img id="me" src={Ashby} alt="Photo of Ashby in Ireland"/>
             <p>I'm a current student of the UNCC Full-Stack Coding Bootcamp. With a background in theatre and performing
                 arts, I am bringing my knowledge of entertainment into the world of development. I am seeking a job
                 in front-end and back-end web development. I have a lengthy job history as a manager/supervisor of teams

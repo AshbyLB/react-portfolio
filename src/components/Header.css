@@ -2,10 +2,11 @@
     font-family: 'Bungee Shade', cursive;
     color: seashell;
     font-size: 275%;
+    margin-left: 10px;
 }
 
 #hov{
-    padding: 10px;
+    padding-right: 10px;
     font-size: 23px;
     text-decoration: none;
 }
@@ -49,4 +50,22 @@
   }
 #hov:hover {
     color: #89a8ff;
+  }
+
+  @media screen and (max-width: 732px){
+
+    header {
+      width: 100%;
+      display: block;  
+      text-align: center;
+      justify-content: center;
+      
+    }
+
+    #hov {
+        font-size: 15px;
+        min-width: 10px;
+        color: rgb(241, 189, 136);
+        font-weight:bold;
+    }
   }

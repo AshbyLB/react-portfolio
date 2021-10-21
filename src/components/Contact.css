@@ -1,3 +1,18 @@
 #form {
     margin-top: 8%;
 }
+
+@media screen and (max-width: 732px){
+
+    #form {
+      width: 100%;
+      display: block;  
+      text-align: center;
+      justify-content: center;
+      
+    }
+    #form {
+        font-size: 16px;
+        min-width: 10px;
+    }
+  }

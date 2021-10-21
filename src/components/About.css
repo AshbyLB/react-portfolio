@@ -6,7 +6,18 @@
     color:#fcebcb;
     padding-left: 20%;
     padding-right: 20%; 
-    margin-top: 15%;
+    margin-top: 7%;
     font-family: 'Do Hyeon', sans-serif;
     font-size: large;
 }
+
+#me {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid blue;
+    margin-bottom: 10px;
+  }
+
+  
+ 

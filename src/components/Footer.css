@@ -1,6 +1,4 @@
-div {
-    margin-top: 20px;
-}
+
 
 div i {
     color: white;
@@ -19,7 +17,7 @@ div i {
     height: 60px;
     text-align: center;
     font-size: 30px;
-    color: #666;
+    color: white;
     transition: .5s;
   }
   
