@@ -26,7 +26,7 @@ function Header({ currentInfo, handlePageChange }) {
                         onClick={() => handlePageChange('Contact')}
                         className={currentInfo === 'Contact' ? 'nav-link active' : 'nav-link'}
                     >
-                        Contact
+                        Testimonials
                     </a>
                     <a  id="hov"
                     href="https://docs.google.com/document/d/1wQnO93AluP_Msrb4X41c_AsCO9zwRi0dOxBaumybkQE/edit?usp=sharing" target="_blank">
