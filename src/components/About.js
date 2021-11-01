@@ -22,8 +22,8 @@ function About() {
                 </p>
                 <h2>Technical Skills</h2>
                 <p>
-                    Languages: SQL, JavaScript, React, MERN, HTML/CSS, CSS, JSON, Express, Express Handlebars, Express Sessions, NodeJs, Sequelize, JQuery.
-                    Database: MongoDB, MySQL
+                    Languages: SQL, JavaScript, React, MERN, HTML/CSS, CSS, JSON, Express, Express Handlebars, Express Sessions, NodeJs, Sequelize, JQuery.<br />
+                    Database: MongoDB, MySQL <br />
                     Other: Heroku, GitHub.
                 </p>
             </div>
