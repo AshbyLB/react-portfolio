@@ -1,11 +1,11 @@
 import React from 'react';
 import './Project.css';
 import Drinks from '../../src/images/drinkrandom.png';
-import Quiz from '../../src/images/quiz.png';
 import Ghost from '../../src/images/ghostly.png';
 import Schedule from '../../src/images/schedule.png';
 import Password from '../../src/images/password.png';
 import Fitness from '../../src/images/fitnesspro.png';
+import National from '../../src/images/npwsite.png';
 
 
 
@@ -16,20 +16,20 @@ function Project() {
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="card col-12 col-md-4 text-white m-4 bg-transparent">
-                        <img src={Drinks} className="card-img" alt="..."></img>
+                        <img src={National} className="card-img" alt="..."></img>
                         <div id="hiddenText" className="card-img-overlay row align-items-center ">
                             <div className=" text-center">
-                                <a className="card-text text-decoration-none mx-4 fs-3" href="https://ashbylb.github.io/dinner-drink-decisions/" >Website</a>
-                                <a className="card-text text-decoration-none mx-4 fs-3" href="https://github.com/AshbyLB/dinner-drink-decisions" >GitHub</a>
+                                <a className="card-text text-decoration-none mx-4 fs-3" href="https://arcane-hamlet-34907.herokuapp.com/" >Website</a>
+                                <a className="card-text text-decoration-none mx-4 fs-3" href="https://github.com/AshbyLB/national-roadtrip" >GitHub</a>
                             </div>
                         </div>
                     </div>
                     <div className="card col-12 col-md-4 text-white m-4 bg-transparent">
-                        <img src={Quiz} className="card-img" alt="..."></img>
+                        <img src={Drinks} className="card-img" alt="..."></img>
                         <div id="hiddenText" className="card-img-overlay row align-items-center">
                             <div className=" text-center">
-                                <a className="card-text text-decoration-none mx-4 fs-3" href="https://ashbylb.github.io/student-code-quiz/" >Website</a>
-                                <a className="card-text text-decoration-none mx-4 fs-3" href="https://github.com/AshbyLB/student-code-quiz" >GitHub</a>
+                            <a className="card-text text-decoration-none mx-4 fs-3" href="https://ashbylb.github.io/dinner-drink-decisions/" >Website</a>
+                            <a className="card-text text-decoration-none mx-4 fs-3" href="https://github.com/AshbyLB/dinner-drink-decisions" >GitHub</a>
                             </div>
                         </div>
                     </div>
