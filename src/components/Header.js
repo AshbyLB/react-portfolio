@@ -3,7 +3,6 @@ import './Header.css';
 
 function Header({ currentInfo, handlePageChange }) {
     return (
-        <div>
             <header class="row" className="header row">
                 <h1 id="name" className="col p-2">Ashby Blakely</h1>
                 <nav className="navbar col justify-content-end">
@@ -34,7 +33,6 @@ function Header({ currentInfo, handlePageChange }) {
                     </a>
                 </nav>
             </header>
-        </div>
     );
 }
 
