@@ -28,6 +28,11 @@ function Header({ currentInfo, handlePageChange }) {
                         Testimonials
                     </a>
                     <a  id="hov"
+                        href="mailto: ashbyleeblakely@gmail.com"
+                    >
+                        Contact 
+                    </a>
+                    <a  id="hov"
                     href="https://docs.google.com/document/d/1wQnO93AluP_Msrb4X41c_AsCO9zwRi0dOxBaumybkQE/edit?usp=sharing" target="_blank">
                         Resume
                     </a>
